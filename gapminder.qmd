@@ -1,12 +1,16 @@
 ---
 title: "Gapminder tutorial"
 name: "Your name here"
-data: 2023-11-20
+data: 2024-11-11
 ---
 
 
-```{r setup}
-library(tidyverse)
+```{r}
+#| label: setup
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(purrr)
 library(broom)
 library(gapminder)
 library(forcats)
@@ -25,7 +29,7 @@ library(forcats)
 Mind the grouping! 
 
 ```{r}
-
+# Your answer here
 ```
 
 
@@ -51,7 +55,7 @@ Mind the grouping!
 - Save as `by_country_lm`
 
 ```{r}
-
+# Your answer here
 ```
 
 
@@ -62,7 +66,7 @@ Mind the grouping!
 - Try writing a single statement that solves this questions! 
 
 ```{r}
-
+# Your answer here
 ```
 
 ## Explore a list column by plotting 
@@ -73,7 +77,7 @@ Mind the grouping!
 - Pipe to `ggplot()`
 
 ```{r}
-
+# Your answer here
 ```
 
 
@@ -85,7 +89,7 @@ Mind the grouping!
 - To extract the named `"r.squared"`, use the `pluck(sumary, "r.squared")`,  `purrr` syntax
 
 ```{r}
-
+# Your answer here
 ```
 
 
@@ -102,7 +106,7 @@ Mind the grouping!
 - Use `list()` when dealing with a list column `rowwise` grouped
 
 ```{r}
-
+# Your answer here
 ```
 
 
@@ -118,7 +122,7 @@ Mind the grouping!
 - `fct_reorder(country, rsq)` to reorder based on the `rsq` continuous variable
 
 ```{r}
-
+# Your answer here
 ```
 
 
@@ -136,7 +140,7 @@ Mind the grouping!
 - `slice_min(col, n = 5)` returns the 5 minimal values of `col`
 
 ```{r}
-
+# Your answer here
 ```
 
 
@@ -154,7 +158,7 @@ Mind the grouping!
 - Add tendency with `geom_smooth(method = "loess")`
 
 ```{r}
-
+# Your answer here
 ```
 
 
