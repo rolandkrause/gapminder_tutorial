@@ -23,7 +23,7 @@ library(forcats)
 ## Getting started
 - Load `gapminder` and `tidyverse` packages by running the `setup` chunk 
 - Use the pipe `|>` to pass `gapminder` to `ggplot()`
-- **Plot** the `life expectency` (`lifeExp` in `y`) ~ `year` (`x`)
+- **Plot** the `life expectancy` (`lifeExp` in `y`) ~ `year` (`x`)
 - Use `geom_line()`
 
 Mind the grouping! 
