@@ -1,7 +1,7 @@
 ---
 title: "Gapminder tutorial"
 name: "Your name here"
-data: 2024-11-11
+data: 2025-12-08
 ---
 
 
